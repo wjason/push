@@ -1,0 +1,4 @@
+<% @glasswares.each do |glassware| %>
+  <%= glassware.project_name%>
+  <%= link_to "授权", glassware.login_url%>
+<% end %>
